@@ -1,0 +1,27 @@
+[
+    {
+        "id": 8,
+        "nombreSuperheroe": "Ant-Man",
+        "nombreReal": "Scott Lang",
+        "nombreSociedad": "Avengers",
+        "planetaOrigen": "Tierra",
+        "debilidad": "Falta de control de sus Habilidades",
+        "poder": "Cambiar de Tamano",
+        "habilidadEspecial": "Experto en Electronica",
+        "aliado": "Tony Stark",
+        "enemigo": "El conquistador"
+    },
+
+    {
+        "id": 9,
+        "nombreSuperheroe": "Batman",
+        "nombreReal": "Bruce Wayne",
+        "nombreSociedad": "Justice League",
+        "planetaOrigen": "Tierra",
+        "debilidad": "Ninguna",
+        "poder": "Inteligencia",
+        "habilidadEspecial": "Experto en artes marciales",
+        "aliado": "Robin",
+        "enemigo": "Joker"
+    },
+]

@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1, 
+        "nombreSuperheroe": "Spiderman", 
+        "nombreReal": "Peter Parker",
+        "nombreSociedad": "Vigilante", 
+        "edad": 25,
+        "planetaOrigen": "tierra", 
+        "debilidad": "Radioactiva", 
+        "poder":["trepar paredes", "Sentido aracnido", "super fuerza", "Agilidad"],
+        "habilidadEspecial": "Redes de telarana", 
+        "aliado:["Ironman"], 
+        "enemigo":["duende verde"]
+    },
+    
+    {
+        "id": 2, 
+        "nombreSuperheroe": "Ironman", 
+        "nombreReal": "Tony Stark",
+        "nombreSociedad": "Vigilante", 
+        "edad": 45,
+        "planetaOrigen": "tierra", 
+        "debilidad": "Dependiente de la teccnologia", 
+        "poder":["Armadura Blindada", "Volar", "Laseres"],
+        "habilidadEspecial": "Ingenieria avanzada", 
+        "aliado:["Spiderman"], 
+        "enemigo":["Mandarin"]
+    },
+
+    {
+        "id": 3, 
+        "nombreSuperheroe": "Thor", 
+        "nombreReal": "Thor Odinson",
+        "nombreSociedad": "Dios del trueno", 
+        "edad": 1000,
+        "planetaOrigen": "Asgard", 
+        "debilidad": "Destruir su martillo", 
+        "poder":["Controlar el Trueno", 
+        "Fuerza Sobrehumana", "Inmortal"],
+        "habilidadEspecial": "Invocacion de Tormentas", 
+        "aliado:["Loki"], 
+        "enemigo":["Hela"]
+    },
+
+    {
+        "id": 4,
+        "nombreSuperheroe": "Black Widow",
+        "nombreReal": "Natasha Romanoff",
+        "nombreSociedad": "Avengers",
+        "planetaOrigen": "Tierra",
+        "debilidad": "Su pasado",
+        "poder": "Maestra en combate cuerpo a cuerpo",
+        "habilidadEspecial": "Espionaje avanzado",
+        "aliado": "Hawkeye",
+        "enemigo": "Taskmaster"
+    },
+
+    {
+        "id": 5,
+        "nombreSuperheroe": "Hulk",
+        "nombreReal": "Bruce Banner",
+        "nombreSociedad": "Avengers",
+        "planetaOrigen": "Tierra",
+        "debilidad": "Incapacidad para controlar la ira",
+        "poder": "Fuerza ilimitada",
+        "habilidadEspecial": "Resistencia sobrehumana",
+        "aliado": "Viuda Negra",
+        "enemigo": "Abominación"
+    },
+
+    {
+        "id": 6,
+        "nombreSuperheroe": "Capitán América",
+        "nombreReal": "Steve Rogers",
+        "nombreSociedad": "Avengers",
+        "planetaOrigen": "Tierra",
+        "debilidad": "Sentido del deber",
+        "poder": "Fuerza sobrehumana",
+        "habilidadEspecial": "Habilidades tácticas y de combate",
+        "aliado": "Iron Man",
+        "enemigo": "Cráneo Rojo"
+    },
+
+    {
+        "id": 7,
+        "nombreSuperheroe": "Doctor Strange",
+        "nombreReal": "Stephen Strange",
+        "nombreSociedad": "Avengers",
+        "planetaOrigen": "Tierra",
+        "debilidad": "Arrogancia",
+        "poder": "Magia avanzada, control del tiempo",
+        "habilidadEspecial": "Manipulación de hechizos místicos",
+        "aliado": "Wong",
+        "enemigo": "Dormammu"
+    },
+]
