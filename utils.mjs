@@ -20,7 +20,7 @@ class Superheroe {
 
 // Funcion parra leer y ordenar  los superheroes
 
-export function leerSuperheroes(ruta){
+export function leerSuperheroes(ruta) {
     const datos = fs.readFileSync (ruta, 'utf8');
     const superheroesArray = JSON.parse(datos);
 
@@ -35,5 +35,30 @@ export function leerSuperheroes(ruta){
     superheroes.sort((a, b) =>  a.nombreSuperheroe.localeCompare(
         b.nombreSuperheroe));
     return superheroes;
+    
+}
+
+// nueva funcion para agregar superheroes
+
+export function agregarSuperheroes(rutaOriginal, rutaNuevos) {
+    const datosOriginales = fs.readSync(rutaOriginal, 'utf8');
+    const datosNuevos = fs.readFileSync(rutaNuevos, 'utf8');
+
+    const superheroresOriginal = JSON.parse(datosOriginales);
+    const nuevosSuperheroes = JSON.parse(datosNuevos);
+
+    //cconvertir los nuevos superheroes a instancias de superheroe
+
+    const instanciasNuevos = nuevosSuperheroes.map(
+        hero => new Superheroe(hero.id, hero.nombreSuperheroe, hero.nombreReal, hero.nombreSociedad, hero.edad, hero.planetaOrigen,
+        hero.debilidad, hero.poder, hero.habilidadEspecial, hero.aliado, hero.enemigo )
+    );
+
+    // combinar listas
+    const listasActualizada = [...superheroresOriginal, ...instanciasNuevos];
+
+    // Guardar la lista actualizada
+    fs.writeFileSync(rutaOriginal, JSON.stringify(listasActualizada, null, 2), 'utf-8');
+    console.log('Listas de SuperHerores actualizada con exito.');
     
 }
