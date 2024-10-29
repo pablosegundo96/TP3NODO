@@ -41,10 +41,10 @@ export function leerSuperheroes(ruta) {
 // nueva funcion para agregar superheroes
 
 export function agregarSuperheroes(rutaOriginal, rutaNuevos) {
-    const datosOriginales = fs.readSync(rutaOriginal, 'utf8');
+    const datosOriginales = fs.readFileSync(rutaOriginal, 'utf8');
     const datosNuevos = fs.readFileSync(rutaNuevos, 'utf8');
 
-    const superheroresOriginal = JSON.parse(datosOriginales);
+    const superheroesOriginal = JSON.parse(datosOriginales);
     const nuevosSuperheroes = JSON.parse(datosNuevos);
 
     //cconvertir los nuevos superheroes a instancias de superheroe
@@ -55,10 +55,10 @@ export function agregarSuperheroes(rutaOriginal, rutaNuevos) {
     );
 
     // combinar listas
-    const listasActualizada = [...superheroresOriginal, ...instanciasNuevos];
+    const listaActualizada = [...superheroesOriginal, ...instanciasNuevos];
 
     // Guardar la lista actualizada
-    fs.writeFileSync(rutaOriginal, JSON.stringify(listasActualizada, null, 2), 'utf-8');
-    console.log('Listas de SuperHerores actualizada con exito.');
+    fs.writeFileSync(rutaOriginal, JSON.stringify(listaActualizada, null, 2), 'utf-8');
+    console.log('Listas de SuperHeroes actualizada con exito.');
     
 }

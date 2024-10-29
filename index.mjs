@@ -1,7 +1,7 @@
-import {agregarSuperheroes, leerSuperheroes} from "./utils.mjs";
+import {leerSuperheroes, agregarSuperheroes} from "./utils.mjs";
 
-const archivoOriginal = './superherores.txt';
-const archivoNuevos = './agregarSuperherores.txt';
+const archivoOriginal = './superheroes.txt';
+const archivoNuevos = './agregarSuperheroes.txt';
 
 //agregar neuvos superherores
 agregarSuperheroes(archivoOriginal, archivoNuevos);

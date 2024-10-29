@@ -9,8 +9,8 @@
         "debilidad": "Radioactiva", 
         "poder":["trepar paredes", "Sentido aracnido", "super fuerza", "Agilidad"],
         "habilidadEspecial": "Redes de telarana", 
-        "aliado:["Ironman"], 
-        "enemigo":["duende verde"]
+        "aliado":"Ironman", 
+        "enemigo":"duende verde"
     },
     
     {
@@ -23,8 +23,8 @@
         "debilidad": "Dependiente de la teccnologia", 
         "poder":["Armadura Blindada", "Volar", "Laseres"],
         "habilidadEspecial": "Ingenieria avanzada", 
-        "aliado:["Spiderman"], 
-        "enemigo":["Mandarin"]
+        "aliado":"Spiderman", 
+        "enemigo":"Mandarin"
     },
 
     {
@@ -38,8 +38,8 @@
         "poder":["Controlar el Trueno", 
         "Fuerza Sobrehumana", "Inmortal"],
         "habilidadEspecial": "Invocacion de Tormentas", 
-        "aliado:["Loki"], 
-        "enemigo":["Hela"]
+        "aliado":"Loki", 
+        "enemigo":"Hela"
     },
 
     {
